@@ -1,0 +1,6 @@
+@coffee_app_backend_HostAddress = http://localhost:5260
+
+GET {{coffee_app_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

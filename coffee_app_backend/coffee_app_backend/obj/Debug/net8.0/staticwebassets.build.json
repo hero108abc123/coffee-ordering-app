@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Rjnc8Hxm2NLwx3Rm7xrs8gLwZhNhU79xSNakvzSL33c=",
+  "Source": "coffee_app_backend",
+  "BasePath": "_content/coffee_app_backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

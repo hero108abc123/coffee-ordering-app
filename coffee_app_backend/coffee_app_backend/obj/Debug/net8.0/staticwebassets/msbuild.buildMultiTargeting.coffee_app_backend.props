@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\coffee_app_backend.props" />
+</Project>

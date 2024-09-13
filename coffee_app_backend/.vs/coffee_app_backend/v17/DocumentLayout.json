@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|d:\\study\\intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:28:44.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\ForgotPasswordDto.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\ForgotPasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:17:55.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwDYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:56:48.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:01:33.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiControllerBase.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:19:13.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:29:54.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:19:10.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "ToolTip": "D:\\STUDY\\Intern\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAFkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:30:12.358Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

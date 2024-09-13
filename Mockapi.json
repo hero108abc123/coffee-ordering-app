@@ -1,0 +1,225 @@
+{
+  "uuid": "5c879121-f96b-49bd-8cc4-171a5a5b7e98",
+  "lastMigration": 32,
+  "name": "Mockapi",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "3dc82452-6ca8-4f4f-ae7a-8b554e62e467",
+      "type": "http",
+      "documentation": "Register an account",
+      "method": "post",
+      "endpoint": "signup",
+      "responses": [
+        {
+          "uuid": "668c1371-7d27-4a47-9b4d-81331c160845",
+          "body": "{\r\n    \"status\": \"error\",\r\n    \"message\": \"Validation failed.\",\r\n    \"errors\": {\r\n        \"email\": \"Invalid email format.\",\r\n        \"password\": \"Password must be at least 8 characters.\"\r\n    }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "17f5bda0-eb2c-44d5-8461-b5c30fa7fe5a",
+          "body": "{\r\n    \"status\": \"error\",\r\n    \"message\": \"Email is already registered.\",\r\n    \"error_code\": \"EMAIL_ALREADY_EXISTS\"\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 409,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "00e230ae-82d4-45bc-8514-09e95e65c0ae",
+          "body": "{\n    \"status\": \"error\",\n    \"message\": \"An unexpected error occurred. Please try again later.\"\n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "3f3ae880-22c1-4fd7-9dbd-97b96252435b",
+          "body": "{\r\n    \"status\": \"success\",\r\n    \"message\": \"User registered successfully.\",\r\n    \"user_id\": \"1\",\r\n    \"auth_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VyTmFtZSI6ImdpYW5ndHJpbmgyMDAzIiwiZW1haWwiOiJnaWFuZ3RyaW5oMjAwM0BnbWFpbC5jb20ifQ.CwIGbGQo-BrVyNwfgWLjV5w92Hj7C6Joa7XRIoeFjG8\",\r\n    \"expires_in\": 3600\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "",
+              "value": "",
+              "invert": true,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "9f06429b-8811-4123-bbee-63deeec9f04b",
+      "type": "http",
+      "documentation": "Login with email and password",
+      "method": "get",
+      "endpoint": "signin",
+      "responses": [
+        {
+          "uuid": "cd14fcf7-40cd-4471-8a26-6d2c47c47760",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "",
+              "value": "",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "a3e8423d-db5b-4f89-a38a-96af1d88fddb",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "3dc82452-6ca8-4f4f-ae7a-8b554e62e467"
+    },
+    {
+      "type": "route",
+      "uuid": "9f06429b-8811-4123-bbee-63deeec9f04b"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "cf549be4-7859-4b3e-9e93-5a3d7fcc706b",
+      "id": "o801",
+      "name": "users",
+      "documentation": "",
+      "value": "[\n]"
+    }
+  ],
+  "callbacks": []
+}
