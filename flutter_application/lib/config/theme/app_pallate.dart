@@ -9,4 +9,6 @@ class AppPallate {
   static const Color formTextColor = Color(0xffC1C7D0);
   static const Color blueColor = Color(0xff324A59);
   static const Color splashTextColor = Color(0xff92614b);
+  static const Color xprimaryColor = Color(0xffC67C4E);
+  static const Color xsecondaryColor = Color(0xffA2A2A2);
 }

@@ -5,10 +5,10 @@ import 'package:flutter_application/core/common/widgets/loader.dart';
 import 'package:flutter_application/core/common/widgets/show_snackbar.dart';
 import 'package:flutter_application/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:flutter_application/features/auth/presentation/screens/signin_screen.dart';
+import 'package:flutter_application/features/home/presentation/screens/app_main_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iconly/iconly.dart';
 
-import '../../../home/presentation/screens/home_feature.dart';
 import '../screens/auth_feature.dart';
 import '../widgets/auth_widgets.dart';
 
@@ -36,7 +36,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       },
       builder: (context, isLoggedIn) {
         if (isLoggedIn) {
-          return const HomeScreen();
+          return const AppMainScreen();
         }
         return BlocListener<AuthBloc, AuthState>(
           listener: (context, state) {

@@ -1,11 +1,11 @@
-// import 'package:device_preview/device_preview.dart';
-// import 'package:flutter/foundation.dart';
+import 'package:device_preview/device_preview.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application/core/common/cubit/app_user_cubit.dart';
 import 'package:flutter_application/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:flutter_application/features/auth/presentation/di/auth_init_dependencies.dart';
 import 'package:flutter_application/features/auth/presentation/screens/auth_feature.dart';
-import 'package:flutter_application/features/home/presentation/screens/home_feature.dart';
+import 'package:flutter_application/features/home/presentation/screens/app_main_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'dart:io';
 
@@ -14,18 +14,6 @@ void main() async {
   await authInitDependencies();
   HttpOverrides.global = MyHttpOverrides();
   runApp(
-    MultiBlocProvider(
-      providers: [
-        BlocProvider(
-          create: (_) => serviceLocator<AppUserCubit>(),
-        ),
-        BlocProvider(
-          create: (_) => serviceLocator<AuthBloc>(),
-        ),
-      ],
-      child: const MainApp(),
-    ),
-
     // MultiBlocProvider(
     //   providers: [
     //     BlocProvider(
@@ -35,11 +23,23 @@ void main() async {
     //       create: (_) => serviceLocator<AuthBloc>(),
     //     ),
     //   ],
-    //   child: DevicePreview(
-    //     enabled: !kReleaseMode,
-    //     builder: (content) => const MainApp(),
-    //   ),
+    //   child: const MainApp(),
     // ),
+
+    MultiBlocProvider(
+      providers: [
+        BlocProvider(
+          create: (_) => serviceLocator<AppUserCubit>(),
+        ),
+        BlocProvider(
+          create: (_) => serviceLocator<AuthBloc>(),
+        ),
+      ],
+      child: DevicePreview(
+        enabled: !kReleaseMode,
+        builder: (content) => const MainApp(),
+      ),
+    ),
   );
 }
 
@@ -62,8 +62,8 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // locale: DevicePreview.locale(context),
-      // builder: DevicePreview.appBuilder,
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
       title: 'Ordinary Coffee House',
       home: BlocSelector<AppUserCubit, AppUserState, bool>(
@@ -72,7 +72,7 @@ class _MainAppState extends State<MainApp> {
         },
         builder: (context, isLoggedIn) {
           if (isLoggedIn) {
-            return const HomeScreen();
+            return const AppMainScreen();
           }
           return const OnBoardingScreen();
         },

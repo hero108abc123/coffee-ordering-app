@@ -52,9 +52,7 @@ class AuthRepositoryImpl implements AuthRepository {
         email: email,
         password: password,
       );
-      if (accountSuccess != "Create account success") {
-        return left(Failure("Something went wrong!"));
-      }
+
       return right(accountSuccess);
     } on ServerException catch (e) {
       return left(Failure(e.message));

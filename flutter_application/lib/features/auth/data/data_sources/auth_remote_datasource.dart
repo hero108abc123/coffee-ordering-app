@@ -33,23 +33,11 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
   @override
   Future<ProfileModel?> getCurrentUserData() async {
     try {
-      var token = await storage.read(key: 'token');
       Response response = await _dio.get(
         "${Endpoints.user}/get-user",
-        options: Options(
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer $token',
-          },
-        ),
+        isAuthorize: true,
       );
-      if (response.statusCode == 200) {
-        return ProfileModel.fromJson(response.data);
-      } else if (response.statusCode == 401) {
-        return throw const ServerException('User not logged in!');
-      } else {
-        throw const ServerException('Something went wrong!');
-      }
+      return ProfileModel.fromJson(response.data);
     } catch (e) {
       throw ServerException(e.toString());
     }
@@ -68,12 +56,8 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
           "password": password,
         },
       );
-      if (response.statusCode == 200) {
-        await storage.write(key: 'token', value: response.data['token']);
-        return UserModel.fromJson(response.data);
-      } else {
-        throw const ServerException('Something went wrong!');
-      }
+      await storage.write(key: 'token', value: response.data['token']);
+      return UserModel.fromJson(response.data);
     } catch (e) {
       throw ServerException(e.toString());
     }
@@ -96,11 +80,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
           "password": password,
         },
       );
-      if (response.statusCode == 200) {
-        return "Create account success";
-      } else {
-        throw const ServerException('Something went wrong!');
-      }
+      return response.data;
     } catch (e) {
       throw ServerException(e.toString());
     }

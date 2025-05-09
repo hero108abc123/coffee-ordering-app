@@ -4,6 +4,7 @@ import 'package:flutter_application/core/common/entities/user.dart';
 import 'package:flutter_application/core/common/entities/user_profile.dart';
 import 'package:flutter_application/core/usecase/usecase.dart';
 import 'package:flutter_application/features/auth/domain/usecases/current_user.dart';
+import 'package:flutter_application/features/auth/domain/usecases/params.dart';
 import 'package:flutter_application/features/auth/domain/usecases/user_signin.dart';
 import 'package:flutter_application/features/auth/domain/usecases/user_signup.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

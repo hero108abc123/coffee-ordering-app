@@ -24,7 +24,7 @@ namespace coffee_app_backend.Controllers
             try
             {
                 _authService.CreateUser(input);
-                return Ok();
+                return Ok("Account Created Successfully");
             }
             catch (Exception ex)
             {

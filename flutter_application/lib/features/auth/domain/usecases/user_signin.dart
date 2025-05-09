@@ -2,6 +2,7 @@ import 'package:flutter_application/core/common/entities/user.dart';
 import 'package:flutter_application/core/error/failure.dart';
 import 'package:flutter_application/core/usecase/usecase.dart';
 import 'package:flutter_application/features/auth/domain/repositories/auth_repository.dart';
+import 'package:flutter_application/features/auth/domain/usecases/params.dart';
 import 'package:fpdart/fpdart.dart';
 
 class UserSignIn implements Usecase<User, UserSignInParams> {
@@ -15,14 +16,4 @@ class UserSignIn implements Usecase<User, UserSignInParams> {
       password: params.password,
     );
   }
-}
-
-class UserSignInParams {
-  final String email;
-  final String password;
-
-  UserSignInParams({
-    required this.email,
-    required this.password,
-  });
 }
