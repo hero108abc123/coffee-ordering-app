@@ -14,9 +14,14 @@ namespace coffee_app_backend.Dtos.AuthDtos
             set => _userName = value?.Trim();
         }
 
+        private string _mobileNumber;
         [Required]
         [RegularExpression(@"^(0|\+84)(3[2-9]|5[6|8|9]|7[0|6|7|8|9]|8[1-5]|9[0-9])[0-9]{7}$", ErrorMessage = "Invalid Phone Number.")]
-        public string MobileNumber { get; set; }
+        public string MobileNumber 
+        { 
+            get => _mobileNumber;
+            set => _mobileNumber = value?.Trim(); 
+        }
 
         private string _email;
 
@@ -39,5 +44,6 @@ namespace coffee_app_backend.Dtos.AuthDtos
             set => _password = value?.Trim();
         }
 
+        
     }
 }

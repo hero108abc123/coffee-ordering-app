@@ -7,9 +7,11 @@ namespace coffee_app_backend.Dbcontexts
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+            
         }
 
         public DbSet<User> Users { get; set; }
+
+        
     }
 }
