@@ -44,6 +44,5 @@ namespace coffee_app_backend.Dtos.AuthDtos
             set => _password = value?.Trim();
         }
 
-        
     }
 }

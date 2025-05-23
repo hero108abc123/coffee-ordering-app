@@ -80,13 +80,6 @@ final listOfCoffee = [
     description:
         'A delightful Italian dessert-coffee hybrid, the affogato consists of a scoop of creamy vanilla gelato or ice cream “drowned” with a shot of hot espresso. The contrast of hot and cold creates a rich, velvety treat that’s perfect as a dessert or a sweet pick-me-up.',
     price: 50000,
-    category: 'Coffee',
+    category: 'Latte',
   ),
-];
-final coffeeCategories = [
-  'Coffee',
-  'Machiato',
-  'Latte',
-  'Americano',
-  'Cappuccino',
 ];

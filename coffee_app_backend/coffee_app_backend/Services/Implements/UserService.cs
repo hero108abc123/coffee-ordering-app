@@ -30,6 +30,7 @@ namespace coffee_app_backend.Services.Implements
                     Id = user.Id,
                     Username = user.Username,
                     MobileNumber = user.MobileNumber,
+                    Address = user.Address,
                 };
                 return result;
             }

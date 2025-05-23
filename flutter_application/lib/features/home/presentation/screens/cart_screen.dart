@@ -213,7 +213,274 @@ class _CartScreenState extends State<CartScreen> {
                 const SizedBox(height: 16),
                 ElevatedButton(
                   onPressed: () {
-                    // Xử lý thanh toán
+                    showModalBottomSheet(
+                      context: context,
+                      shape: const RoundedRectangleBorder(
+                        borderRadius:
+                            BorderRadius.vertical(top: Radius.circular(20)),
+                      ),
+                      builder: (context) {
+                        String selectedMethod = 'Cash';
+                        return StatefulBuilder(
+                          builder: (context, setModalState) => Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                const Text(
+                                  'Select Payment Method',
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                const SizedBox(height: 20),
+                                RadioListTile<String>(
+                                  value: 'Thanh toán khi nhận',
+                                  groupValue: selectedMethod,
+                                  title: const Text('Thanh toán khi nhận'),
+                                  onChanged: (value) {
+                                    setModalState(
+                                        () => selectedMethod = value!);
+                                  },
+                                ),
+                                RadioListTile<String>(
+                                  value: 'Thanh toán bằng thẻ',
+                                  groupValue: selectedMethod,
+                                  title: const Text('Thanh toán bằng thẻ'),
+                                  onChanged: (value) {
+                                    setModalState(
+                                        () => selectedMethod = value!);
+                                  },
+                                ),
+                                RadioListTile<String>(
+                                  value: 'Momo',
+                                  groupValue: selectedMethod,
+                                  title: const Text('Momo'),
+                                  onChanged: (value) {
+                                    setModalState(
+                                        () => selectedMethod = value!);
+                                  },
+                                ),
+                                const SizedBox(height: 20),
+                                ElevatedButton(
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                    showModalBottomSheet(
+                                      context: context,
+                                      isScrollControlled: true,
+                                      shape: const RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.vertical(
+                                            top: Radius.circular(20)),
+                                      ),
+                                      builder: (context) {
+                                        String phone = '0123456789';
+                                        String address =
+                                            '123 Đường ABC, Quận 1, TP.HCM';
+                                        widget.cartItems.fold(0,
+                                            (sum, item) => sum + item.quantity);
+                                        double totalPrice =
+                                            calculateTotalPrice();
+                                        double discount = 0; // ví dụ giảm giá
+                                        double vat = 0; // ví dụ VAT/Thuế
+                                        double finalTotal =
+                                            totalPrice - discount + vat;
+
+                                        return Padding(
+                                          padding: const EdgeInsets.all(20.0),
+                                          child: Column(
+                                            mainAxisSize: MainAxisSize.min,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Center(
+                                                child: Container(
+                                                  width: 40,
+                                                  height: 4,
+                                                  margin: const EdgeInsets.only(
+                                                      bottom: 16),
+                                                  decoration: BoxDecoration(
+                                                    color: Colors.grey[300],
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            2),
+                                                  ),
+                                                ),
+                                              ),
+                                              const Center(
+                                                child: Text(
+                                                  'Đặt hàng 100015',
+                                                  style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: 18),
+                                                ),
+                                              ),
+                                              const SizedBox(height: 4),
+                                              const Divider(height: 24),
+                                              ...widget.cartItems.map((item) {
+                                                final coffee =
+                                                    listOfCoffee.firstWhere(
+                                                        (c) => c.id == item.id);
+                                                return Padding(
+                                                  padding: const EdgeInsets
+                                                      .symmetric(vertical: 4),
+                                                  child: Row(
+                                                    children: [
+                                                      Expanded(
+                                                          child: Text(
+                                                              coffee.name)),
+                                                      Text('${item.quantity}'),
+                                                      const SizedBox(width: 8),
+                                                      Text(
+                                                        NumberFormat.currency(
+                                                                locale: 'vi_VN',
+                                                                symbol: '₫')
+                                                            .format(coffee
+                                                                    .price *
+                                                                item.quantity),
+                                                        style: const TextStyle(
+                                                            fontWeight:
+                                                                FontWeight
+                                                                    .bold),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                );
+                                              }),
+                                              const SizedBox(height: 8),
+                                              Container(
+                                                height: 32,
+                                                width: double.infinity,
+                                                color: Colors.grey[100],
+                                                alignment: Alignment.centerLeft,
+                                                padding:
+                                                    const EdgeInsets.symmetric(
+                                                        horizontal: 8),
+                                                child: const Text(''),
+                                              ),
+                                              const Divider(height: 24),
+                                              Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  const Text('Giá các món:'),
+                                                  Text(NumberFormat.currency(
+                                                          locale: 'vi_VN',
+                                                          symbol: '₫')
+                                                      .format(totalPrice)),
+                                                ],
+                                              ),
+                                              const Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  Text('Giá phụ kiện:'),
+                                                  Text('0₫'),
+                                                ],
+                                              ),
+                                              Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  const Text('Giảm giá:'),
+                                                  Text(
+                                                      '(-) ${NumberFormat.currency(locale: 'vi_VN', symbol: '₫').format(discount)}'),
+                                                ],
+                                              ),
+                                              Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  const Text('VAT/Thuế:'),
+                                                  Text(NumberFormat.currency(
+                                                          locale: 'vi_VN',
+                                                          symbol: '₫')
+                                                      .format(vat)),
+                                                ],
+                                              ),
+                                              const Divider(height: 24),
+                                              Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                children: [
+                                                  const Text(
+                                                    'Tổng cộng',
+                                                    style: TextStyle(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: 16),
+                                                  ),
+                                                  Text(
+                                                    NumberFormat.currency(
+                                                            locale: 'vi_VN',
+                                                            symbol: '₫')
+                                                        .format(finalTotal),
+                                                    style: const TextStyle(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: 16),
+                                                  ),
+                                                ],
+                                              ),
+                                              const SizedBox(height: 20),
+                                              Row(
+                                                children: [
+                                                  const Icon(Icons.phone,
+                                                      size: 18),
+                                                  const SizedBox(width: 8),
+                                                  Text(phone),
+                                                ],
+                                              ),
+                                              const SizedBox(height: 8),
+                                              Row(
+                                                children: [
+                                                  const Icon(Icons.location_on,
+                                                      size: 18),
+                                                  const SizedBox(width: 8),
+                                                  Expanded(
+                                                      child: Text(address)),
+                                                ],
+                                              ),
+                                              const SizedBox(height: 20),
+                                              Center(
+                                                child: ElevatedButton(
+                                                  onPressed: () {
+                                                    Navigator.pop(context);
+                                                    setState(() {
+                                                      widget.cartItems
+                                                          .clear(); // Reset giỏ hàng về empty
+                                                    });
+                                                    ScaffoldMessenger.of(
+                                                            context)
+                                                        .showSnackBar(
+                                                      const SnackBar(
+                                                          content: Text(
+                                                              'Order placed successfully!')),
+                                                    );
+                                                  },
+                                                  child: const Text(
+                                                      'Xác nhận đặt hàng'),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        );
+                                      },
+                                    );
+                                  },
+                                  child: const Text('Confirm'),
+                                ),
+                              ],
+                            ),
+                          ),
+                        );
+                      },
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppPallate.xprimaryColor,

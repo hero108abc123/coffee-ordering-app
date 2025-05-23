@@ -3,36 +3,136 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\utils\\commonuntils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\utils\\commonuntils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\implements\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\implements\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\coffees\\addcoffeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\coffees\\addcoffeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\entities\\favoritecoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\entities\\favoritecoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\coffees\\coffeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\coffees\\coffeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522191854_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:coffee_app_backend\\Migrations\\20250522191854_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\entities\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\entities\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\implements\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\entities\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\utils\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\utils\\uploadfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\categorydtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\categorydtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522185303_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:coffee_app_backend\\Migrations\\20250522185303_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\invoice\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\invoice\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\exceptions\\exceptionbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\exceptions\\exceptionbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\cartitem\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\cartitem\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522182747_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:coffee_app_backend\\Migrations\\20250522182747_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\utils\\commonuntils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\utils\\commonuntils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -47,28 +147,16 @@
       "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\coffee_app_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\dtos\\exceptions\\exceptionbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\dtos\\exceptions\\exceptionbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\exceptions\\userfriendlyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\exceptions\\userfriendlyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|c:\\users\\dell\\desktop\\do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\migrations\\20250522191951_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F748AB1C-7D27-4DAE-95DC-2DC14EA578E3}|coffee_app_backend\\coffee_app_backend.csproj|solutionrelative:coffee_app_backend\\migrations\\20250522191951_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,215 +166,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommonUntils.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\CommonUntils.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Utils\\CommonUntils.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\CommonUntils.cs",
-              "RelativeToolTip": "coffee_app_backend\\Utils\\CommonUntils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:27:47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Utils\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\PasswordHasher.cs",
-              "RelativeToolTip": "coffee_app_backend\\Utils\\PasswordHasher.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:22:48.678Z"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\appsettings.json",
-              "RelativeDocumentMoniker": "coffee_app_backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\appsettings.json",
-              "RelativeToolTip": "coffee_app_backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-10T14:04:31.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "coffee_app_backend\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-10T14:04:51.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "coffee_app_backend",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
-              "RelativeDocumentMoniker": "coffee_app_backend\\coffee_app_backend.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
-              "RelativeToolTip": "coffee_app_backend\\coffee_app_backend.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-10T14:04:47.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "coffee_app_backend.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
-              "RelativeDocumentMoniker": "coffee_app_backend\\coffee_app_backend.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
-              "RelativeToolTip": "coffee_app_backend\\coffee_app_backend.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-10T14:04:42.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ExceptionBody.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
-              "RelativeToolTip": "coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:31:29.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
-              "RelativeToolTip": "coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:23:48.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Program.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Program.cs",
-              "RelativeToolTip": "coffee_app_backend\\Program.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAQwGgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:23:22.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserFriendlyException.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
-              "RelativeToolTip": "coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:13:58.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
-              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T08:28:44.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "coffee_app_backend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBZwBoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T09:56:48.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\UserController.cs",
-              "RelativeToolTip": "coffee_app_backend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T10:01:33.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApiControllerBase.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ApiControllerBase.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\ApiControllerBase.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ApiControllerBase.cs",
-              "RelativeToolTip": "coffee_app_backend\\Controllers\\ApiControllerBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T10:19:13.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
-              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T07:29:54.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T06:19:10.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\AuthService.cs",
-              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Implements\\AuthService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\AuthService.cs",
-              "RelativeToolTip": "coffee_app_backend\\Services\\Implements\\AuthService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T10:30:12.358Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -299,6 +183,474 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAUwDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:29:16.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:27:07.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddCoffeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Coffees\\AddCoffeeDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\Coffees\\AddCoffeeDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Coffees\\AddCoffeeDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\Coffees\\AddCoffeeDto.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:20:49.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250522191951_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522191951_InitialCreate.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Migrations\\20250522191951_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522191951_InitialCreate.cs",
+              "RelativeToolTip": "coffee_app_backend\\Migrations\\20250522191951_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:19:51.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250522191854_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522191854_InitialCreate.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Migrations\\20250522191854_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522191854_InitialCreate.cs",
+              "RelativeToolTip": "coffee_app_backend\\Migrations\\20250522191854_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:18:54.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FavoriteCoffee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\FavoriteCoffee.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Entities\\FavoriteCoffee.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\FavoriteCoffee.cs",
+              "RelativeToolTip": "coffee_app_backend\\Entities\\FavoriteCoffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:13:22.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UploadFile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\UploadFile.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Utils\\UploadFile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\UploadFile.cs",
+              "RelativeToolTip": "coffee_app_backend\\Utils\\UploadFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T19:09:23.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\ProductService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Implements\\ProductService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\ProductService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Implements\\ProductService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:55:13.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250522185303_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522185303_InitialCreate.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Migrations\\20250522185303_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522185303_InitialCreate.cs",
+              "RelativeToolTip": "coffee_app_backend\\Migrations\\20250522185303_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:53:03.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\CartItem\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\CartItem\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\CartItem\\CartItemDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\CartItem\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:47:00.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Invoice\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\Invoice\\InvoiceDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Invoice\\InvoiceDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\Invoice\\InvoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:38:32.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\CategoryDtos\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\CategoryDtos\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\CategoryDtos\\CategoryDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\CategoryDtos\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:37:53.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoffeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Coffees\\CoffeeDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\Coffees\\CoffeeDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Coffees\\CoffeeDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\Coffees\\CoffeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:36:23.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:28:30.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250522182747_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522182747_InitialCreate.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Migrations\\20250522182747_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Migrations\\20250522182747_InitialCreate.cs",
+              "RelativeToolTip": "coffee_app_backend\\Migrations\\20250522182747_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T18:27:47.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\CartItem.cs",
+              "RelativeToolTip": "coffee_app_backend\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:49:17.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\Category.cs",
+              "RelativeToolTip": "coffee_app_backend\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:24:06.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Coffee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\Coffee.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Entities\\Coffee.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\Coffee.cs",
+              "RelativeToolTip": "coffee_app_backend\\Entities\\Coffee.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wBkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:23:37.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\Invoice.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Entities\\Invoice.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\Invoice.cs",
+              "RelativeToolTip": "coffee_app_backend\\Entities\\Invoice.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:23:22.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\UserService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Implements\\UserService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\UserService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Implements\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:21:10.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\UserDtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\UserDtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\UserDtos\\UserDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\UserDtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:20:22.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Entities\\User.cs",
+              "RelativeToolTip": "coffee_app_backend\\Entities\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T16:18:18.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommonUntils.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\CommonUntils.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Utils\\CommonUntils.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\CommonUntils.cs",
+              "RelativeToolTip": "coffee_app_backend\\Utils\\CommonUntils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:27:47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Utils\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Utils\\PasswordHasher.cs",
+              "RelativeToolTip": "coffee_app_backend\\Utils\\PasswordHasher.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:22:48.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\appsettings.json",
+              "RelativeDocumentMoniker": "coffee_app_backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\appsettings.json",
+              "RelativeToolTip": "coffee_app_backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T14:04:31.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "coffee_app_backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T14:04:51.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "coffee_app_backend",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
+              "RelativeDocumentMoniker": "coffee_app_backend\\coffee_app_backend.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
+              "RelativeToolTip": "coffee_app_backend\\coffee_app_backend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T14:04:47.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "coffee_app_backend.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
+              "RelativeDocumentMoniker": "coffee_app_backend\\coffee_app_backend.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\coffee_app_backend.csproj",
+              "RelativeToolTip": "coffee_app_backend\\coffee_app_backend.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T14:04:42.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExceptionBody.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\Exceptions\\ExceptionBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:31:29.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dbcontexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:23:48.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Program.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Program.cs",
+              "RelativeToolTip": "coffee_app_backend\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwFkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:23:22.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserFriendlyException.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
+              "RelativeToolTip": "coffee_app_backend\\Exceptions\\UserFriendlyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:13:58.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T08:28:44.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:56:48.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:01:33.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApiControllerBase.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "RelativeToolTip": "coffee_app_backend\\Controllers\\ApiControllerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:19:13.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "RelativeToolTip": "coffee_app_backend\\Dtos\\AuthDtos\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:29:54.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T06:19:10.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "RelativeDocumentMoniker": "coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Do an\\coffee-ordering-app\\coffee_app_backend\\coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "RelativeToolTip": "coffee_app_backend\\Services\\Implements\\AuthService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:30:12.358Z"
             }
           ]
         }

@@ -41,6 +41,7 @@ namespace coffee_app_backend.Services.Implements
             {
                 Username = input.UserName,
                 MobileNumber = input.MobileNumber,
+                Address = "",
                 Email = input.Email,
                 Password = PasswordHasher.HashPassword(input.Password),
             });

@@ -13,8 +13,13 @@ namespace coffee_app_backend.Entities
 
         public string MobileNumber  { get; set; }
 
+        public string Address { get; set; }
+
         public string Email { get; set; }
 
         public string Password { get; set; }
+
+        public ICollection<Invoice> Invoices { get; set; } = new List<Invoice>();
+        public ICollection<FavoriteCoffee> Coffees { get; set; } = new List<FavoriteCoffee>();
     }   
 }
